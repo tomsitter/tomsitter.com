@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
 body {
     color: #c39871;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 h1,
@@ -130,7 +138,6 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background-image: url('/img/bg/cloud_reflection.jpg');
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -209,6 +216,8 @@ a.pure-button-primary {
 	.content-subhead a {
 		color: #c39871;
 		text-decoration: none;
+		padding: 0.5em;
+		text-shadow: 1px 2px rgba(0,0,0,0.3);
 	}
 
 	.content-subhead a:hover,
@@ -256,6 +265,10 @@ a.pure-button-primary {
         padding: 1em;
     }
 
+    .content-wrapper {
+    	top: 25%;
+    }
+
     /* We can align the menu header to the left, but float the
     menu items to the right. */
     .home-menu {
@@ -301,7 +314,7 @@ a.pure-button-primary {
     }
 	
 	.content-wrapper {
-		top: 20%;
+		top: 25%;
 	}
 }
 
