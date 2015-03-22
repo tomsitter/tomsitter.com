@@ -5,11 +5,7 @@
 }
 
 html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(images/tree_bark.png) repeat; 
 }
 
 /*
@@ -17,7 +13,7 @@ html {
  * Most of these are inherited from Base, but I want to change a few.
  */
 body {
-    color: #c39871;
+    color: #34495e;
     font-size: 16px;
 }
 
@@ -129,7 +125,7 @@ a.pure-button-primary {
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #d0ae8f;
+    color: #5B7EA1;
 }
 
 /*
@@ -199,6 +195,7 @@ a.pure-button-primary {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+    text-decoration: underline;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -214,17 +211,16 @@ a.pure-button-primary {
     }
 	
 	.content-subhead a {
-		color: #c39871;
+		color: #2d3e50;
 		text-decoration: none;
 		padding: 0.5em;
-		text-shadow: 1px 2px rgba(0,0,0,0.3);
 	}
 
 	.content-subhead a:hover,
 	.content-subhead a:focus {
 		background: none;
 		border: none;
-		color: #d0ae8f;
+		color: #5B7EA1;
 	}
 
 /* This is the class used for the dark-background areas. */
@@ -247,6 +243,7 @@ a.pure-button-primary {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	color: #c39871;
 }
 
 /*
